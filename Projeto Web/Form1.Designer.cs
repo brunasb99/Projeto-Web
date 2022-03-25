@@ -31,7 +31,7 @@ namespace Projeto_Web
         {
             this.panel1 = new System.Windows.Forms.Panel();
             this.Perfilbtn = new System.Windows.Forms.Button();
-            this.Amigosbtn = new System.Windows.Forms.Button();
+            this.Comunidadebtn = new System.Windows.Forms.Button();
             this.Pesquisarbtn = new System.Windows.Forms.TextBox();
             this.panel2 = new System.Windows.Forms.Panel();
             this.Solicitacoesbtn = new System.Windows.Forms.Button();
@@ -39,7 +39,6 @@ namespace Projeto_Web
             this.Seriesbtn = new System.Windows.Forms.Button();
             this.Filmesbtn = new System.Windows.Forms.Button();
             this.DropdownMenu = new System.Windows.Forms.ComboBox();
-            this.button1 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.SuspendLayout();
@@ -48,7 +47,7 @@ namespace Projeto_Web
             // 
             this.panel1.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.panel1.Controls.Add(this.Perfilbtn);
-            this.panel1.Controls.Add(this.Amigosbtn);
+            this.panel1.Controls.Add(this.Comunidadebtn);
             this.panel1.Controls.Add(this.Pesquisarbtn);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
@@ -59,22 +58,22 @@ namespace Projeto_Web
             // Perfilbtn
             // 
             this.Perfilbtn.Dock = System.Windows.Forms.DockStyle.Right;
-            this.Perfilbtn.Location = new System.Drawing.Point(690, 0);
+            this.Perfilbtn.Location = new System.Drawing.Point(662, 0);
             this.Perfilbtn.Name = "Perfilbtn";
             this.Perfilbtn.Size = new System.Drawing.Size(75, 40);
             this.Perfilbtn.TabIndex = 2;
             this.Perfilbtn.Text = "Perfil";
             this.Perfilbtn.UseVisualStyleBackColor = true;
             // 
-            // Amigosbtn
+            // Comunidadebtn
             // 
-            this.Amigosbtn.Dock = System.Windows.Forms.DockStyle.Right;
-            this.Amigosbtn.Location = new System.Drawing.Point(765, 0);
-            this.Amigosbtn.Name = "Amigosbtn";
-            this.Amigosbtn.Size = new System.Drawing.Size(69, 40);
-            this.Amigosbtn.TabIndex = 1;
-            this.Amigosbtn.Text = "Amigos";
-            this.Amigosbtn.UseVisualStyleBackColor = true;
+            this.Comunidadebtn.Dock = System.Windows.Forms.DockStyle.Right;
+            this.Comunidadebtn.Location = new System.Drawing.Point(737, 0);
+            this.Comunidadebtn.Name = "Comunidadebtn";
+            this.Comunidadebtn.Size = new System.Drawing.Size(97, 40);
+            this.Comunidadebtn.TabIndex = 1;
+            this.Comunidadebtn.Text = "Comunidade";
+            this.Comunidadebtn.UseVisualStyleBackColor = true;
             // 
             // Pesquisarbtn
             // 
@@ -147,21 +146,11 @@ namespace Projeto_Web
             this.DropdownMenu.Size = new System.Drawing.Size(154, 23);
             this.DropdownMenu.TabIndex = 2;
             // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(271, 172);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(120, 35);
-            this.button1.TabIndex = 2;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(834, 451);
-            this.Controls.Add(this.button1);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);
             this.Name = "Form1";
@@ -183,9 +172,8 @@ namespace Projeto_Web
         private System.Windows.Forms.Button Filmesbtn;
         private System.Windows.Forms.ComboBox DropdownMenu;
         private System.Windows.Forms.Button Perfilbtn;
-        private System.Windows.Forms.Button Amigosbtn;
+        private System.Windows.Forms.Button Comunidadebtn;
         private System.Windows.Forms.TextBox Pesquisarbtn;
-        private System.Windows.Forms.Button button1;
     }
 }
 

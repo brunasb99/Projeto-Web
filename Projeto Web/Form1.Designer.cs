@@ -42,7 +42,6 @@ namespace Projeto_Web
             this.panel3 = new System.Windows.Forms.Panel();
             this.Solicitacoesbtn = new System.Windows.Forms.Button();
             this.Comunidadebtn = new System.Windows.Forms.Button();
-            this.DropdownMenu = new System.Windows.Forms.ComboBox();
             this.TimerSlidingPanel = new System.Windows.Forms.Timer(this.components);
             this.panel4 = new System.Windows.Forms.Panel();
             this.panel5 = new System.Windows.Forms.Panel();
@@ -100,7 +99,6 @@ namespace Projeto_Web
             this.SlidingPanel.BackColor = System.Drawing.SystemColors.ControlDark;
             this.SlidingPanel.Controls.Add(this.panel2);
             this.SlidingPanel.Controls.Add(this.panel3);
-            this.SlidingPanel.Controls.Add(this.DropdownMenu);
             this.SlidingPanel.Dock = System.Windows.Forms.DockStyle.Left;
             this.SlidingPanel.Location = new System.Drawing.Point(0, 40);
             this.SlidingPanel.Name = "SlidingPanel";
@@ -113,7 +111,7 @@ namespace Projeto_Web
             this.panel2.Controls.Add(this.Seriesbtn);
             this.panel2.Controls.Add(this.Filmesbtn);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel2.Location = new System.Drawing.Point(0, 23);
+            this.panel2.Location = new System.Drawing.Point(0, 0);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(113, 315);
             this.panel2.TabIndex = 8;
@@ -154,15 +152,15 @@ namespace Projeto_Web
             this.panel3.Controls.Add(this.Solicitacoesbtn);
             this.panel3.Controls.Add(this.Comunidadebtn);
             this.panel3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.panel3.Location = new System.Drawing.Point(0, 23);
+            this.panel3.Location = new System.Drawing.Point(0, 0);
             this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(113, 362);
+            this.panel3.Size = new System.Drawing.Size(113, 385);
             this.panel3.TabIndex = 7;
             // 
             // Solicitacoesbtn
             // 
             this.Solicitacoesbtn.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.Solicitacoesbtn.Location = new System.Drawing.Point(0, 321);
+            this.Solicitacoesbtn.Location = new System.Drawing.Point(0, 344);
             this.Solicitacoesbtn.Name = "Solicitacoesbtn";
             this.Solicitacoesbtn.Size = new System.Drawing.Size(113, 41);
             this.Solicitacoesbtn.TabIndex = 9;
@@ -178,15 +176,6 @@ namespace Projeto_Web
             this.Comunidadebtn.TabIndex = 8;
             this.Comunidadebtn.Text = "Comunidade";
             this.Comunidadebtn.UseVisualStyleBackColor = true;
-            // 
-            // DropdownMenu
-            // 
-            this.DropdownMenu.Dock = System.Windows.Forms.DockStyle.Top;
-            this.DropdownMenu.FormattingEnabled = true;
-            this.DropdownMenu.Location = new System.Drawing.Point(0, 0);
-            this.DropdownMenu.Name = "DropdownMenu";
-            this.DropdownMenu.Size = new System.Drawing.Size(113, 23);
-            this.DropdownMenu.TabIndex = 2;
             // 
             // TimerSlidingPanel
             // 
@@ -241,7 +230,6 @@ namespace Projeto_Web
 
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Panel SlidingPanel;
-        private System.Windows.Forms.ComboBox DropdownMenu;
         private System.Windows.Forms.Button Perfilbtn;
         private System.Windows.Forms.TextBox Pesquisarbtn;
         private System.Windows.Forms.Panel panel3;
